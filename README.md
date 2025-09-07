@@ -35,6 +35,11 @@ It automates the detection of a wide range of web vulnerabilities, making it sui
 ---
 
 ## Usage
+## Disclaimer
+
+EBRAM Web Scanner is developed for **educational purposes and ethical security testing only**.  
+The author **does not condone or take responsibility** for any illegal or unauthorized use of this tool.  
+Use it **only on systems and websites you have explicit permission to test**.
 
 > **Note:** The repository contains the **compiled scanner (.pyc)** to protect the source code. You need Python installed to run it.
 
