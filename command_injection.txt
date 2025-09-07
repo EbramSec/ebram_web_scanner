@@ -1,0 +1,35 @@
+; ls -la
+& ls -la
+&& ls -la
+| ls -la
+|| ls -la
+; cat /etc/passwd
+& cat /etc/passwd
+&& cat /etc/passwd
+| cat /etc/passwd
+|| cat /etc/passwd
+; id
+& id
+&& id
+| id
+|| id
+`ls -la`
+$(ls -la)
+`cat /etc/passwd`
+$(cat /etc/passwd)
+`id`
+$(id)
+;sleep 5
+&sleep 5
+&&sleep 5
+|sleep 5
+||sleep 5
+`sleep 5`
+$(sleep 5)
+;ping -c 5 127.0.0.1
+&ping -c 5 127.0.0.1
+&&ping -c 5 127.0.0.1
+|ping -c 5 127.0.0.1
+||ping -c 5 127.0.0.1
+`ping -c 5 127.0.0.1`
+$(ping -c 5 127.0.0.1)
