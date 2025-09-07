@@ -25,7 +25,7 @@ It automates the detection of a wide range of web vulnerabilities, making it sui
   - SSRF / XXE
   - Directory Listing and Backup File Exposure
   - Security Headers Check
-https://github.com/EbramSec/ebram_web_scanner/blob/main/1010.jpg
+
 - Modular architecture with customizable payloads
 - Automatic payload loading
 - Detailed logging of tests and results
