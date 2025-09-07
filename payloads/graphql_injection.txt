@@ -1,0 +1,20 @@
+{__schema{types{name,fields{name}}}}
+{__schema{queryType{name}}}
+{__schema{types{name,kind,description,fields{name}}}}
+{__type(name:"User"){name,fields{name,type{name,kind}}}}
+{__type(name:"Query"){name,fields{name,type{name,kind}}}}
+{users{id,name,email}}
+{user(id:1){id,name,email}}
+mutation{createUser(name:"test",email:"test@test.com"){id}}
+mutation{updateUser(id:1,name:"test"){id}}
+mutation{deleteUser(id:1){id}}
+{user(id:"1' OR '1'='1"){id,name,email}}
+{user(id:1){id,name,email,password}}
+{user(id:1){id,name,email,creditCard}}
+{user(id:1){id,name,email,ssn}}
+{user(id:1){id,name,email,role}}
+{user(id:1){id,name,email,isAdmin}}
+{user(id:1){id,name,email,permissions}}
+{user(id:1){id,name,email,token}}
+{user(id:1){id,name,email,apiKey}}
+{user(id:1){id,name,email,secretKey}}
