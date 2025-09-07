@@ -39,4 +39,4 @@ It automates the detection of a wide range of web vulnerabilities, making it sui
 > **Note:** The repository contains the **compiled scanner (.pyc)** to protect the source code. You need Python installed to run it.
 
 ```bash
-python ebram_scanner_v5.pyc
+python ebram_scanner_v5
